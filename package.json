@@ -4,14 +4,12 @@
     "description": "Salesforce SOQL Builder",
     "main": "Web.js",
     "dependencies": {
-        "http": "~0.0.0",
-        "request": "~2.36.0",
-        "express": "~4.4.5",
-        "logfmt": "~1.1.2",
         "body-parser": "~1.6.2",
-        "ejs": "^1.0.0"
-    "devDependencies": {
-        "foreman": "^2.0.0"
+        "ejs": "^1.0.0",
+        "express": "^4.16.4",
+        "http": "~0.0.0",
+        "logfmt": "^1.2.1",
+        "request": "^2.88.0"
     },
     "devDependencies": {},
     "scripts": {

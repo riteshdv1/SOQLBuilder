@@ -35,10 +35,10 @@ app.get('/index*' , function(req,res) {
 } );
 
  app.get('/oauthcallback*' , function(req,res) {
-    res.sendfile('views/oauthcallback.html');
+    res.sendFile('views/oauthcallback.html');
 } );
  app.get('/soql*' , function(req,res) {
-    res.sendfile('views/SOQLBuilder.html');
+    res.sendFile('views/SOQLBuilder.html');
 } );
 
 
